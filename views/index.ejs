@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/dox3hvo.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title><%= title %></title>
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+    	$(document).ready(function() {
+    		$('#orwellsEquation').hide();
+    		$('#orwell').hover(function(In){
+    			$('#orwellsEquation').fadeIn("slow");
+    		}, function(Out) {
+    			$('#orwellsEquation').fadeOut("slow");
+    		});
+    	});
+    </script>
+  </head>
+  <body class="tk-proxima-nova">
+    <div class="wrapper">
+      <header>
+        <h1><%= headerOne %><%= headerTwo %></h1>
+      </header>
+      <div class="networks">
+          <div class="left">
+            <p>Listen to my&nbsp;</p>
+            <p>Check out my&nbsp;</p>
+            <p>Some of my fun&nbsp;</p>
+            <p>What I'm&nbsp;</p>
+            <p>Unending&nbsp;</p>
+            <p>Connect with&nbsp;</p>
+          </div>
+          <div class="right">
+            <p><a href="https://soundcloud.com/contextform" target="_blank">Music</a><p>
+            <p><a href="https://github.com/cponeill" target="_blank">Code</a><p>
+            <p><a href="*" target="_blank">Projects</a><p>
+            <p><a href="https://medium.com/@cponeill" target="_blank">Thinking</a></p>
+            <p><a href="https://twitter.com/cponeill" target="_blank">Tweets</a><p>
+            <p><a href="https://www.linkedin.com/profile/view?id=4052076&trk=nav_responsive_tab_profile_pic" target="_blank">Me</a><p>
+          </div>
+      </div>
+
+      <div class="hi5" id="orwell">2 + 2 = 5</div>
+      	<br />
+      	<br />
+      	<br />
+      	<br />
+      	<div id="orwellsEquation">if everybody believes it, does that make it true?</div>
+    </div>
+    
+  </body>
+</html>
