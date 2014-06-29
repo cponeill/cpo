@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/dox3hvo.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title><%= title %></title>
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#orwellsEquation').hide();
+        $('#orwell').hover(function(In){
+          $('#orwellsEquation').fadeIn("slow");
+        }, function(Out) {
+          $('#orwellsEquation').fadeOut("slow");
+        });
+      });
+    </script>
+  </head>
+  <body class="tk-proxima-nova">
+    <div class="wrapper">
+      <header>
+        <h1><%= headerOne %><%= headerTwo %></h1>
+      </header>
+      <div class="networks">
+          <div class="left">
+            <p>A Meme Inspired To-Do App&nbsp;</p>
+            <p>Music News Search App&nbsp;</p>
+            <p>Bitcoin News Source&nbsp;</p>
+            <p>Wikipedia Search in Chrome&nbsp;</p>
+          </div>
+          <div class="right">
+            <p><a href="http://www.getallthethingsdone.com/" target="_blank">get ALL the things done!</a><p>
+            <p><a href="http://www.itsrocket.com/" target="_blank">Rocket</a><p>
+            <p><a href="http://www.coingazr.com/" target="_blank">CoinGazr</a><p>
+            <p><a href="http://www.simplesear.ch/" target="_blank">Wikipedia Search</a><p>
+          </div>
+      </div>
+      <div class="left">
+        <p>Back to the&nbsp;</p>
+      </div>
+      <div class="right">
+        <p><a href="/">Home Page</a><p>
+      </div>
+<!-- This code will go live once I have internet again -->
+      <div class="hi5" id="orwell">2 + 2 = 5</div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div id="orwellsEquation">if everybody believes it, does that make it true?</div>
+    </div>
+    </div>
+  </body>
+</html>
