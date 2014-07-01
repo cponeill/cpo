@@ -6,7 +6,7 @@
 exports.index = function(req, res){
   res.render('index', { 
   	title: 'cponeill',
-  	headerOne: 'My Name is Casey ... ',
-  	headerTwo: 'It\'s nice to meet you.'
+  	Name: 'My Name is Casey ... ',
+  	Greeting: 'It\'s nice to meet you.'
   	 });
 };
